@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Builder</h1>
+    </header>
+    <main>
+        <div class="resume-container" id="resume-container">
+            <!-- Left Section -->
+            <div class="left-section">
+                <div class="profile-pic">
+                    <img id="profile-image" src="https://via.placeholder.com/120" alt="Profile">
+                    <input type="file" id="upload-image" accept="image/*">
+                </div>
+                <div class="section skills" contenteditable="true">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Cash Drawer Balancing</li>
+                        <li>Cash Handling Skills</li>
+                        <li>Complex Problem Solving</li>
+                        <li>Staff Training & Development</li>
+                        <li>Exceptional Customer Service</li>
+                        <li>Analytical & Critical Thinking</li>
+                    </ul>
+                </div>
+                <div class="section languages" contenteditable="true">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>English (Bilingual Proficiency)</li>
+                        <li>Spanish (Professional Working Proficiency)</li>
+                    </ul>
+                </div>
+                <div class="section certificates" contenteditable="true">
+                    <h3>Certificates</h3>
+                    <ul>
+                        <li>Certified Bank Teller (06/2013)</li>
+                        <li>Teller Specialist Certificate (06/2013)</li>
+                    </ul>
+                </div>
+                <div class="section interests" contenteditable="true">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li>Mediation</li>
+                        <li>Archery</li>
+                        <li>Gardening</li>
+                        <li>Photography</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right Section -->
+            <div class="right-section">
+                <div class="personal-info">
+                    <h2 contenteditable="true">Loraine Hudson</h2>
+                    <p class="title" contenteditable="true">Bank Teller</p>
+                    <p contenteditable="true">loraine@nowresume.com</p>
+                    <p contenteditable="true">123 445 222</p>
+                    <p contenteditable="true">Philadelphia, PA</p>
+                    <p contenteditable="true">linkedin.com/in/loraine.hudson</p>
+                </div>
+                <div class="section work-experience" contenteditable="true">
+                    <h3>Work Experience</h3>
+                    <h4>Bank Teller</h4>
+                    <p>Double Star National Bank</p>
+                    <p>09/2017 - Present</p>
+                    <p>Administered vaults and cash transactions, served 50+ customers daily.</p>
+                </div>
+                <div class="section education" contenteditable="true">
+                    <h3>Education</h3>
+                    <h4>MS. in Banking and Finance</h4>
+                    <p>The University of Philadelphia</p>
+                    <p>2010 - 2012</p>
+                </div>
+            </div>
+        </div>
+        <button id="download-pdf">Download as PDF</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Editable Resume Builder</p>
+    </footer>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
